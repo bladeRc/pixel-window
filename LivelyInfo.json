@@ -1,0 +1,14 @@
+{
+  "AppVersion": "2.0.6.1",
+  "Title": "pixel-window",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Desc": "Your own city in live pixel art: its landmarks and real skyline, following the real time of day and weather. Type a city in the settings or leave it empty to detect it.",
+  "Author": "blade",
+  "License": "MIT",
+  "Contact": "https://github.com/bladeRc/pixel-window",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--pause-event true",
+  "IsAbsolutePath": false
+}

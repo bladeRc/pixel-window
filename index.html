@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>pixel-window</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #05081a;
+      }
+      canvas {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        image-rendering: pixelated;
+      }
+      #debug {
+        display: none;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        padding: 6px 8px;
+        font: 13px/1.4 Consolas, monospace;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.55);
+        border-radius: 4px;
+        white-space: pre;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <div id="debug"></div>
+    <script src="src/pixels.js"></script>
+    <script src="src/sun.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/palette.js"></script>
+    <script src="src/font.js"></script>
+    <script src="src/location.js"></script>
+    <script src="src/cities.js"></script>
+    <script src="src/styles.js"></script>
+    <script src="src/landmarks.js"></script>
+    <script src="src/skyline.js"></script>
+    <script src="src/scene.js"></script>
+    <script src="src/actors.js"></script>
+    <script src="src/effects.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>

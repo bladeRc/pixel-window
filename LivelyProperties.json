@@ -1,0 +1,20 @@
+{
+  "city": {
+    "type": "textbox",
+    "value": "",
+    "text": "City (empty = detect automatically)"
+  },
+  "fps": {
+    "type": "slider",
+    "min": 6,
+    "max": 30,
+    "step": 1,
+    "value": 12,
+    "text": "Frames per second"
+  },
+  "debug": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Show info overlay"
+  }
+}
